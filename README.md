@@ -12,7 +12,7 @@ Farcaster Frame V2 development workflow
 
 2. in another terminal: ngrok http http://localhost:3000
 
-3. go to 'warpcast mobile app > settings > developer > domains'
+3. go to `warpcast mobile app > settings > developer > domains`
 
      you should generate a domain manifest. to achieve that we need to set ngrok http path as "Domain without protocol"
      and uncheck the "Include example frame definition" checkbox.
@@ -24,11 +24,11 @@ Farcaster Frame V2 development workflow
   
 5. for NEXT_PUBLIC_FRONTEND_URL we should place the ngrok http path.
 
-6. after fill in the env vars, we can go back to 'warpcast > settings > developer > domains' and check if everything is ok
+6. after fill in the env vars, we can go back to `warpcast > settings > developer > domains` and check if everything is ok
      on Domains section, fill the "Domain without protocol" input with the ngrok http path, and instead of generate a new domain manifest, check domain status.
      if you successfully fill in the env vars, it should retrieve a Verified!
 
-7. navigate to 'warpcast mobile app > settings > developer > frames.
+7. navigate to `warpcast mobile app > settings > developer > frames`
     and set launch frame values with the ngrok http path.
        example:
          URL: https://12345.ngrok.app
